@@ -7,6 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        "custom-orange": "#BF5A00",
+        "bg-body": "rgb(22, 22, 22, 0.95)",
+        "dark-hover": "rgb(0, 0, 0, 0.3)",
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
