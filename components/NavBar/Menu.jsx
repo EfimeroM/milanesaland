@@ -45,7 +45,7 @@ const Menu = () => {
       ))}
       <Link
         href={{
-          pathname: "/auth",
+          pathname: "/authentication",
           query: { type: "login" },
         }}
         className="py-1 px-2 border-2 flex justify-center items-center 

@@ -7,7 +7,7 @@ const Ranking = ({ handleRanking, isMobile = null }) => {
 
   return (
     <div
-      className="w-52 h-auto -mr-2 md:w-1/4 bg-bg-body border border-t-0 md:border-t rounded rounded-tl-none 
+      className="w-52 h-auto -mr-1.5 md:w-1/4 bg-bg-body border border-t-0 md:border-t rounded rounded-tl-none 
       rounded-tr-none rounded-br-none border-custom-orange"
     >
       <div

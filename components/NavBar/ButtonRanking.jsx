@@ -12,11 +12,11 @@ const ButtonRanking = ({ isMobile }) => {
   return (
     <>
       {isMobile && (
-        <div className="absolute right-0 mt-20 mr-2">
+        <div className="absolute z-10 right-0 mt-20 mr-2">
           {!viewRanking ? (
             <BsArrowDownShort
               onClick={handleRanking}
-              className="h-8 w-10 text-custom-orange border border-t-0
+              className="h-8 w-10 bg-bg-body text-custom-orange border border-t-0
               border-custom-orange rounded rounded-tr-none rounded-tl-none"
             />
           ) : (

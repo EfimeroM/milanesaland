@@ -14,7 +14,7 @@ const NavBar = () => {
   , [widthMin]);
 
   return (
-    <div className="w-full h-20 border-b flex border-custom-orange">
+    <div className="w-full h-20 border-b flex z-10 border-custom-orange">
       <Menu />
       <ButtonRanking isMobile={isMobile} />
     </div>
